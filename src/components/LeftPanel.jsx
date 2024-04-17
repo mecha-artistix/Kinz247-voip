@@ -21,14 +21,14 @@ function LeftPanel() {
 
   return (
     <NavigationContext.Provider value={{ isExpanded }}>
-      <div className="left-panel border-r border-r-pr_border">
+      <div className="left-panel border-r  border-r-pr_border">
         <div
           style={isExpanded ? { width: "300px" } : { width: "160px" }}
           className="px-8 "
         >
           <button
             onClick={handleExpand}
-            className="text-1xl bg-slate-300 py-1 px-2 rounded-md border-dotted border-slate-500"
+            className="text-1xl rounded-md border-dotted border-slate-500 bg-slate-300 px-2 py-1"
           >
             {isExpanded ? "Collapse <" : "Expand >"}
           </button>

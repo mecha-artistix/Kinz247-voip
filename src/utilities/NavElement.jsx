@@ -19,7 +19,7 @@ function NavElement({ linkIcon, linkText, nestedNav }) {
 
   return (
     <>
-      <li className="list-none flex items-center space-x-4 my-2 text-base ">
+      <li className="my-2 flex list-none items-center space-x-4 text-base  ">
         <span className="icon">{linkIcon ? linkIcon : defaultIcon}</span>
         {isExpanded && (
           <button
@@ -37,10 +37,14 @@ function NavElement({ linkIcon, linkText, nestedNav }) {
         )}
       </li>
       {expandChild && (
-        <ul className="bg-slate-200 p-4 border-2 border-slate-400">
+        <ul className="border-2 bg-gray-50 p-4">
           {nestedNav &&
             nestedNav.map((item) => {
-              return <li key={item.name}>{item.name}</li>;
+              return (
+                <li key={item.name} className="link-primary">
+                  {item.name}
+                </li>
+              );
             })}
         </ul>
       )}
