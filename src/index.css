@@ -9,6 +9,9 @@
   td {
     @apply border-r-k_dark_gray border-r;
   }
+  tr {
+    @apply border-b-k_light_gray border;
+  }
   th {
     @apply bg-k_blue border text-white;
   }
