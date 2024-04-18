@@ -1,10 +1,9 @@
 import { useState, useContext, useEffect } from "react";
 import NavigationContext from "../contexts/NavigationContext";
 import IconDown from "../assets/icons/IconDown";
-const defaultIcon = "😒";
-const defaultText = "Default Text";
+import { Link } from "react-router-dom";
 
-function NavElement({ linkIcon, linkText, nestedNav }) {
+function NavElement({ linkIcon, linkText, nestedNav, linkto }) {
   const { isExpanded } = useContext(NavigationContext);
   const [expandChild, setexpandChild] = useState(false);
 
@@ -20,30 +19,28 @@ function NavElement({ linkIcon, linkText, nestedNav }) {
   return (
     <>
       <li className="my-2 flex list-none items-center space-x-4 text-base  ">
-        <span className="icon">{linkIcon ? linkIcon : defaultIcon}</span>
+        <span className="icon">{linkIcon}</span>
+
         {isExpanded && (
-          <button
-            onClick={handleExpandChild}
-            className="nav-text link-primary flex"
-          >
-            {isExpanded && (linkText ? linkText : defaultText)}
+          <Link to={linkto} className="nav-text link-primary flex">
+            {isExpanded && linkText}
 
             {nestedNav && (
-              <span className="ml-2 translate-y-1">
+              <span onClick={handleExpandChild} className="ml-2 translate-y-1">
                 <IconDown size={20} />
               </span>
             )}
-          </button>
+          </Link>
         )}
       </li>
       {expandChild && (
-        <ul className="border-2 bg-gray-50 p-4">
+        <ul className="flex flex-col border-2 bg-gray-50 p-4 ">
           {nestedNav &&
             nestedNav.map((item) => {
               return (
-                <li key={item.name} className="link-primary">
+                <Link to={item.link} key={item.name} className="link-primary">
                   {item.name}
-                </li>
+                </Link>
               );
             })}
         </ul>

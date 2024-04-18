@@ -12,63 +12,63 @@ export const navigation = [
   {
     name: "Accounting",
     icon: <AccountingIcon size={size} />,
-    link: "#Accounting",
+    link: "/accounting",
     children: [
       {
         name: "Account Dashboard",
-        link: "#",
+        link: "/account-dashboard",
       },
       {
         name: "Account Rate Deck",
-        link: "#",
+        link: "/account-rate-deck",
       },
       {
         name: "Account Hosts",
-        link: "#",
+        link: "/account-hosts",
       },
       {
         name: "Suspend Limits",
-        link: "#",
+        link: "/suspend-limits",
       },
       {
         name: "Input Value",
-        link: "#",
+        link: "/input-value",
       },
     ],
   },
   {
     name: "Carriers",
     icon: <CarrierIcon size={size} />,
-    link: "#Carriers",
+    link: "/carriers",
   },
   {
     name: "Routing",
     icon: <RoutingIcon size={size} />,
-    link: "#Routing",
+    link: "/routing",
   },
   {
     name: "Agents",
     icon: <AgentsIcon size={size} />,
-    link: "#Agents",
+    link: "/agents",
   },
   {
     name: "Billing",
     icon: <BillingIcon size={size} />,
-    link: "#Billing",
+    link: "/billing",
   },
   {
     name: "Reporting",
     icon: <ReportingIcon size={size} />,
-    link: "#Reporting",
+    link: "/reporting",
   },
   {
     name: "Admin",
     icon: <AdminIcon size={size} />,
-    link: "#Admin",
+    link: "/admin",
   },
   {
     name: "Logout",
     icon: <LogoutIcon size={size} />,
-    link: "#Logout",
+    link: "/logout",
   },
 ];
