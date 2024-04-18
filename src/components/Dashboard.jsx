@@ -26,7 +26,7 @@ function Dashboard() {
             <PageTitle />
           </h2>
         </div>
-        <div className="dashboard-container">
+        <div className="dashboard-container max-w-full overflow-x-auto">
           <Routes>
             <Route path="/" element={<AccountOverview />} />;
             <Route path="account-dashboard" element={<AccountDashboard />} />;
