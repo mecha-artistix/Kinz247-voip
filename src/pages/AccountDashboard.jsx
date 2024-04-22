@@ -3,8 +3,8 @@ import { FakeTable } from "../assets/FakeTable";
 function AccountDashboard() {
   return (
     <>
-      <div className="h-full overflow-auto  border">
-        <table className="h-144  table-fixed">
+      <div className="max-h-30 overflow-auto  border">
+        <table className="h-144  table-fixed ">
           <thead>
             <tr>
               <th>Account Name</th>
@@ -20,8 +20,8 @@ function AccountDashboard() {
             </tr>
           </thead>
           <tbody>
-            {FakeTable.map((row) => (
-              <TableRow row={row} />
+            {FakeTable.map((row, i) => (
+              <TableRow key={i} row={row} />
             ))}
           </tbody>
         </table>
@@ -37,12 +37,19 @@ function TableRow({ row, indent = 0 }) {
   const childKey = Object.keys(row).find((key) => Array.isArray(row[key]));
   return (
     <>
-      <tr>
+      <tr className="hover:bg-k_light_blue">
         {Object.entries(row).map(([key, value], index) => {
           if (key !== childKey) {
             return (
               <td
-                style={index === 0 ? { paddingLeft: padding } : {}}
+                style={
+                  index === 0
+                    ? {
+                        paddingLeft: padding,
+                        background: "rgba(28, 119, 246, 0.05)",
+                      }
+                    : {}
+                }
                 key={key}
                 className="border-b"
               >
@@ -57,7 +64,7 @@ function TableRow({ row, indent = 0 }) {
         row[childKey].map((childRow, index) => (
           <tr key={`child-${index}`}>
             <td colSpan="100%">
-              <table className="w-full">
+              <table className="w-full ">
                 <tbody>
                   <TableRow row={childRow} indent={indent + 1} />
                 </tbody>
