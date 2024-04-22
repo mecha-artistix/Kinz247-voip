@@ -16,7 +16,7 @@
     @apply text-left;
   }
   td {
-    @apply ml-4;
+    @apply ml-4 p-0;
   }
   table tr td:first-child {
     @apply min-w-[300px];
