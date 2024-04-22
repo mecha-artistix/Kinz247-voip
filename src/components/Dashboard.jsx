@@ -19,33 +19,31 @@ import Login from "../pages/Login";
 
 function Dashboard() {
   return (
-    <div className="main-dashboard">
-      <div className="px-10 py-10">
-        <div className="my-5">
-          <h2 className="text-4xl font-bold">
-            <PageTitle />
-          </h2>
-        </div>
-        <div className="dashboard-container max-w-full overflow-x-auto">
-          <Routes>
-            <Route path="/" element={<AccountOverview />} />;
-            <Route path="account-dashboard" element={<AccountDashboard />} />;
-            <Route path="accounting" element={<Accounting />} />;
-            <Route path="account-rate-deck" element={<AccountRateDeck />} />;
-            <Route path="account-hosts" element={<AccountHosts />} />;
-            <Route path="suspend-limits" element={<SuspendLimits />} />;
-            <Route path="input-value" element={<InputValue />} />;
-            <Route path="carriers" element={<Carriers />} />;
-            <Route path="routing" element={<Routing />} />;
-            <Route path="agents" element={<Agents />} />;
-            <Route path="billing" element={<Billing />} />;
-            <Route path="reporting" element={<Reporting />} />;
-            <Route path="admin" element={<Admin />} />;
-            <Route path="logout" element={<Logout />} />;
-          </Routes>
-        </div>
+    <section className=" px-10 py-10">
+      <div className="my-5">
+        <h2 className="text-4xl font-bold">
+          <PageTitle />
+        </h2>
       </div>
-    </div>
+      <div className="w-[1080px]">
+        <Routes>
+          <Route path="/" element={<AccountOverview />} />;
+          <Route path="account-dashboard" element={<AccountDashboard />} />;
+          <Route path="accounting" element={<Accounting />} />;
+          <Route path="account-rate-deck" element={<AccountRateDeck />} />;
+          <Route path="account-hosts" element={<AccountHosts />} />;
+          <Route path="suspend-limits" element={<SuspendLimits />} />;
+          <Route path="input-value" element={<InputValue />} />;
+          <Route path="carriers" element={<Carriers />} />;
+          <Route path="routing" element={<Routing />} />;
+          <Route path="agents" element={<Agents />} />;
+          <Route path="billing" element={<Billing />} />;
+          <Route path="reporting" element={<Reporting />} />;
+          <Route path="admin" element={<Admin />} />;
+          <Route path="logout" element={<Logout />} />;
+        </Routes>
+      </div>
+    </section>
   );
 }
 

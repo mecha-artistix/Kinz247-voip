@@ -5,15 +5,19 @@ import Dashboard from "./components/Dashboard";
 import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
-    <div className="container mx-auto h-screen">
-      <div className="grid-container">
-        <BrowserRouter basename="/Kinz247-voip/">
-          <Header />
-          <LeftPanel />
-          <Dashboard />
-        </BrowserRouter>
+    <BrowserRouter basename="/Kinz247-voip/">
+      <div className="">
+        <div className="mx-auto h-screen w-[1440px]">
+          <header className="sticky top-0 z-10 h-24 bg-white">
+            <Header />
+          </header>
+          <main className="flex h-full w-full">
+            <LeftPanel />
+            <Dashboard />
+          </main>
+        </div>
       </div>
-    </div>
+    </BrowserRouter>
   );
 }
 
