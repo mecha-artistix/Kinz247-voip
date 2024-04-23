@@ -80,10 +80,10 @@
       }
     ],
     "accountID": "011",
-    "balance": "4000",
+    "balance": "98675",
     "asr": "0.3",
     "sdp": "15",
-    "spent": "1000",
+    "spent": "123123",
     "profit": "3000",
     "margin": "75%",
     "sessions": "110",
@@ -170,10 +170,730 @@
       }
     ],
     "accountID": "018",
-    "balance": "5000",
+    "balance": "5443",
+    "asr": "0.32",
+    "sdp": "18",
+    "spent": "12",
+    "profit": "3500",
+    "margin": "70%",
+    "sessions": "135",
+    "gainLoss": "31%"
+  },
+  {
+    "accountName": "Alpha 2",
+    "trunks": [
+      {
+        "accountName": "Alpha",
+        "carriers": [
+          {
+            "accountName": "Alpha",
+            "accountID": "012",
+            "balance": "1350",
+            "asr": "0.14",
+            "sdp": "11",
+            "spent": "450",
+            "profit": "900",
+            "margin": "67%",
+            "sessions": "130",
+            "gainLoss": "23%"
+          },
+          {
+            "accountName": "Alpha",
+            "accountID": "013",
+            "balance": "950",
+            "asr": "0.11",
+            "sdp": "4",
+            "spent": "250",
+            "profit": "700",
+            "margin": "73%",
+            "sessions": "95",
+            "gainLoss": "19%"
+          }
+        ],
+        "accountID": "014",
+        "balance": "3200",
+        "asr": "0.24",
+        "sdp": "14",
+        "spent": "800",
+        "profit": "2400",
+        "margin": "75%",
+        "sessions": "105",
+        "gainLoss": "26%"
+      },
+      {
+        "accountName": "Alpha",
+        "carriers": [
+          {
+            "accountName": "Alpha",
+            "accountID": "015",
+            "balance": "1600",
+            "asr": "0.16",
+            "sdp": "13",
+            "spent": "600",
+            "profit": "1000",
+            "margin": "62%",
+            "sessions": "140",
+            "gainLoss": "24%"
+          },
+          {
+            "accountName": "Alpha",
+            "accountID": "016",
+            "balance": "1800",
+            "asr": "0.19",
+            "sdp": "16",
+            "spent": "700",
+            "profit": "1100",
+            "margin": "61%",
+            "sessions": "115",
+            "gainLoss": "27%"
+          }
+        ],
+        "accountID": "017",
+        "balance": "3600",
+        "asr": "0.27",
+        "sdp": "17",
+        "spent": "900",
+        "profit": "2700",
+        "margin": "75%",
+        "sessions": "125",
+        "gainLoss": "29%"
+      }
+    ],
+    "accountID": "018",
+    "balance": "987867",
+    "asr": "0.32",
+    "sdp": "18",
+    "spent": "5342",
+    "profit": "3500",
+    "margin": "70%",
+    "sessions": "135",
+    "gainLoss": "31%"
+  },
+  {
+    "accountName": "Alpha 2",
+    "trunks": [
+      {
+        "accountName": "Alpha",
+        "carriers": [
+          {
+            "accountName": "Alpha",
+            "accountID": "012",
+            "balance": "1350",
+            "asr": "0.14",
+            "sdp": "11",
+            "spent": "450",
+            "profit": "900",
+            "margin": "67%",
+            "sessions": "130",
+            "gainLoss": "23%"
+          },
+          {
+            "accountName": "Alpha",
+            "accountID": "013",
+            "balance": "950",
+            "asr": "0.11",
+            "sdp": "4",
+            "spent": "250",
+            "profit": "700",
+            "margin": "73%",
+            "sessions": "95",
+            "gainLoss": "19%"
+          }
+        ],
+        "accountID": "014",
+        "balance": "3200",
+        "asr": "0.24",
+        "sdp": "14",
+        "spent": "800",
+        "profit": "2400",
+        "margin": "75%",
+        "sessions": "105",
+        "gainLoss": "26%"
+      },
+      {
+        "accountName": "Alpha",
+        "carriers": [
+          {
+            "accountName": "Alpha",
+            "accountID": "015",
+            "balance": "1600",
+            "asr": "0.16",
+            "sdp": "13",
+            "spent": "600",
+            "profit": "1000",
+            "margin": "62%",
+            "sessions": "140",
+            "gainLoss": "24%"
+          },
+          {
+            "accountName": "Alpha",
+            "accountID": "016",
+            "balance": "1800",
+            "asr": "0.19",
+            "sdp": "16",
+            "spent": "700",
+            "profit": "1100",
+            "margin": "61%",
+            "sessions": "115",
+            "gainLoss": "27%"
+          }
+        ],
+        "accountID": "017",
+        "balance": "3600",
+        "asr": "0.27",
+        "sdp": "17",
+        "spent": "900",
+        "profit": "2700",
+        "margin": "75%",
+        "sessions": "125",
+        "gainLoss": "29%"
+      }
+    ],
+    "accountID": "018",
+    "balance": "43453",
+    "asr": "0.32",
+    "sdp": "18",
+    "spent": "64",
+    "profit": "3500",
+    "margin": "70%",
+    "sessions": "135",
+    "gainLoss": "31%"
+  },
+  {
+    "accountName": "Alpha 2",
+    "trunks": [
+      {
+        "accountName": "Alpha",
+        "carriers": [
+          {
+            "accountName": "Alpha",
+            "accountID": "012",
+            "balance": "1350",
+            "asr": "0.14",
+            "sdp": "11",
+            "spent": "450",
+            "profit": "900",
+            "margin": "67%",
+            "sessions": "130",
+            "gainLoss": "23%"
+          },
+          {
+            "accountName": "Alpha",
+            "accountID": "013",
+            "balance": "950",
+            "asr": "0.11",
+            "sdp": "4",
+            "spent": "250",
+            "profit": "700",
+            "margin": "73%",
+            "sessions": "95",
+            "gainLoss": "19%"
+          }
+        ],
+        "accountID": "014",
+        "balance": "3200",
+        "asr": "0.24",
+        "sdp": "14",
+        "spent": "800",
+        "profit": "2400",
+        "margin": "75%",
+        "sessions": "105",
+        "gainLoss": "26%"
+      },
+      {
+        "accountName": "Alpha",
+        "carriers": [
+          {
+            "accountName": "Alpha",
+            "accountID": "015",
+            "balance": "1600",
+            "asr": "0.16",
+            "sdp": "13",
+            "spent": "600",
+            "profit": "1000",
+            "margin": "62%",
+            "sessions": "140",
+            "gainLoss": "24%"
+          },
+          {
+            "accountName": "Alpha",
+            "accountID": "016",
+            "balance": "1800",
+            "asr": "0.19",
+            "sdp": "16",
+            "spent": "700",
+            "profit": "1100",
+            "margin": "61%",
+            "sessions": "115",
+            "gainLoss": "27%"
+          }
+        ],
+        "accountID": "017",
+        "balance": "3600",
+        "asr": "0.27",
+        "sdp": "17",
+        "spent": "900",
+        "profit": "2700",
+        "margin": "75%",
+        "sessions": "125",
+        "gainLoss": "29%"
+      }
+    ],
+    "accountID": "018",
+    "balance": "45666",
+    "asr": "0.32",
+    "sdp": "18",
+    "spent": "8765",
+    "profit": "3500",
+    "margin": "70%",
+    "sessions": "135",
+    "gainLoss": "31%"
+  },
+  {
+    "accountName": "Alpha 2",
+    "trunks": [
+      {
+        "accountName": "Alpha",
+        "carriers": [
+          {
+            "accountName": "Alpha",
+            "accountID": "012",
+            "balance": "1350",
+            "asr": "0.14",
+            "sdp": "11",
+            "spent": "450",
+            "profit": "900",
+            "margin": "67%",
+            "sessions": "130",
+            "gainLoss": "23%"
+          },
+          {
+            "accountName": "Alpha",
+            "accountID": "013",
+            "balance": "950",
+            "asr": "0.11",
+            "sdp": "4",
+            "spent": "250",
+            "profit": "700",
+            "margin": "73%",
+            "sessions": "95",
+            "gainLoss": "19%"
+          }
+        ],
+        "accountID": "014",
+        "balance": "3200",
+        "asr": "0.24",
+        "sdp": "14",
+        "spent": "800",
+        "profit": "2400",
+        "margin": "75%",
+        "sessions": "105",
+        "gainLoss": "26%"
+      },
+      {
+        "accountName": "Alpha",
+        "carriers": [
+          {
+            "accountName": "Alpha",
+            "accountID": "015",
+            "balance": "1600",
+            "asr": "0.16",
+            "sdp": "13",
+            "spent": "600",
+            "profit": "1000",
+            "margin": "62%",
+            "sessions": "140",
+            "gainLoss": "24%"
+          },
+          {
+            "accountName": "Alpha",
+            "accountID": "016",
+            "balance": "1800",
+            "asr": "0.19",
+            "sdp": "16",
+            "spent": "700",
+            "profit": "1100",
+            "margin": "61%",
+            "sessions": "115",
+            "gainLoss": "27%"
+          }
+        ],
+        "accountID": "017",
+        "balance": "3600",
+        "asr": "0.27",
+        "sdp": "17",
+        "spent": "900",
+        "profit": "2700",
+        "margin": "75%",
+        "sessions": "125",
+        "gainLoss": "29%"
+      }
+    ],
+    "accountID": "018",
+    "balance": "5343",
+    "asr": "0.32",
+    "sdp": "18",
+    "spent": "456",
+    "profit": "3500",
+    "margin": "70%",
+    "sessions": "135",
+    "gainLoss": "31%"
+  },
+  {
+    "accountName": "Alpha 2",
+    "trunks": [
+      {
+        "accountName": "Alpha",
+        "carriers": [
+          {
+            "accountName": "Alpha",
+            "accountID": "012",
+            "balance": "1350",
+            "asr": "0.14",
+            "sdp": "11",
+            "spent": "450",
+            "profit": "900",
+            "margin": "67%",
+            "sessions": "130",
+            "gainLoss": "23%"
+          },
+          {
+            "accountName": "Alpha",
+            "accountID": "013",
+            "balance": "950",
+            "asr": "0.11",
+            "sdp": "4",
+            "spent": "250",
+            "profit": "700",
+            "margin": "73%",
+            "sessions": "95",
+            "gainLoss": "19%"
+          }
+        ],
+        "accountID": "014",
+        "balance": "3200",
+        "asr": "0.24",
+        "sdp": "14",
+        "spent": "800",
+        "profit": "2400",
+        "margin": "75%",
+        "sessions": "105",
+        "gainLoss": "26%"
+      },
+      {
+        "accountName": "Alpha",
+        "carriers": [
+          {
+            "accountName": "Alpha",
+            "accountID": "015",
+            "balance": "1600",
+            "asr": "0.16",
+            "sdp": "13",
+            "spent": "600",
+            "profit": "1000",
+            "margin": "62%",
+            "sessions": "140",
+            "gainLoss": "24%"
+          },
+          {
+            "accountName": "Alpha",
+            "accountID": "016",
+            "balance": "1800",
+            "asr": "0.19",
+            "sdp": "16",
+            "spent": "700",
+            "profit": "1100",
+            "margin": "61%",
+            "sessions": "115",
+            "gainLoss": "27%"
+          }
+        ],
+        "accountID": "017",
+        "balance": "3600",
+        "asr": "0.27",
+        "sdp": "17",
+        "spent": "900",
+        "profit": "2700",
+        "margin": "75%",
+        "sessions": "125",
+        "gainLoss": "29%"
+      }
+    ],
+    "accountID": "018",
+    "balance": "12312",
+    "asr": "0.32",
+    "sdp": "18",
+    "spent": "87654",
+    "profit": "3500",
+    "margin": "70%",
+    "sessions": "135",
+    "gainLoss": "31%"
+  },
+  {
+    "accountName": "Alpha 2",
+    "trunks": [
+      {
+        "accountName": "Alpha",
+        "carriers": [
+          {
+            "accountName": "Alpha",
+            "accountID": "012",
+            "balance": "1350",
+            "asr": "0.14",
+            "sdp": "11",
+            "spent": "450",
+            "profit": "900",
+            "margin": "67%",
+            "sessions": "130",
+            "gainLoss": "23%"
+          },
+          {
+            "accountName": "Alpha",
+            "accountID": "013",
+            "balance": "950",
+            "asr": "0.11",
+            "sdp": "4",
+            "spent": "250",
+            "profit": "700",
+            "margin": "73%",
+            "sessions": "95",
+            "gainLoss": "19%"
+          }
+        ],
+        "accountID": "014",
+        "balance": "3200",
+        "asr": "0.24",
+        "sdp": "14",
+        "spent": "800",
+        "profit": "2400",
+        "margin": "75%",
+        "sessions": "105",
+        "gainLoss": "26%"
+      },
+      {
+        "accountName": "Alpha",
+        "carriers": [
+          {
+            "accountName": "Alpha",
+            "accountID": "015",
+            "balance": "1600",
+            "asr": "0.16",
+            "sdp": "13",
+            "spent": "600",
+            "profit": "1000",
+            "margin": "62%",
+            "sessions": "140",
+            "gainLoss": "24%"
+          },
+          {
+            "accountName": "Alpha",
+            "accountID": "016",
+            "balance": "1800",
+            "asr": "0.19",
+            "sdp": "16",
+            "spent": "700",
+            "profit": "1100",
+            "margin": "61%",
+            "sessions": "115",
+            "gainLoss": "27%"
+          }
+        ],
+        "accountID": "017",
+        "balance": "3600",
+        "asr": "0.27",
+        "sdp": "17",
+        "spent": "900",
+        "profit": "2700",
+        "margin": "75%",
+        "sessions": "125",
+        "gainLoss": "29%"
+      }
+    ],
+    "accountID": "018",
+    "balance": "1232",
+    "asr": "0.32",
+    "sdp": "18",
+    "spent": "1",
+    "profit": "3500",
+    "margin": "70%",
+    "sessions": "135",
+    "gainLoss": "31%"
+  },
+  {
+    "accountName": "Alpha 2",
+    "trunks": [
+      {
+        "accountName": "Alpha",
+        "carriers": [
+          {
+            "accountName": "Alpha",
+            "accountID": "012",
+            "balance": "1350",
+            "asr": "0.14",
+            "sdp": "11",
+            "spent": "450",
+            "profit": "900",
+            "margin": "67%",
+            "sessions": "130",
+            "gainLoss": "23%"
+          },
+          {
+            "accountName": "Alpha",
+            "accountID": "013",
+            "balance": "950",
+            "asr": "0.11",
+            "sdp": "4",
+            "spent": "250",
+            "profit": "700",
+            "margin": "73%",
+            "sessions": "95",
+            "gainLoss": "19%"
+          }
+        ],
+        "accountID": "014",
+        "balance": "3200",
+        "asr": "0.24",
+        "sdp": "14",
+        "spent": "800",
+        "profit": "2400",
+        "margin": "75%",
+        "sessions": "105",
+        "gainLoss": "26%"
+      },
+      {
+        "accountName": "Alpha",
+        "carriers": [
+          {
+            "accountName": "Alpha",
+            "accountID": "015",
+            "balance": "1600",
+            "asr": "0.16",
+            "sdp": "13",
+            "spent": "600",
+            "profit": "1000",
+            "margin": "62%",
+            "sessions": "140",
+            "gainLoss": "24%"
+          },
+          {
+            "accountName": "Alpha",
+            "accountID": "016",
+            "balance": "1800",
+            "asr": "0.19",
+            "sdp": "16",
+            "spent": "700",
+            "profit": "1100",
+            "margin": "61%",
+            "sessions": "115",
+            "gainLoss": "27%"
+          }
+        ],
+        "accountID": "017",
+        "balance": "3600",
+        "asr": "0.27",
+        "sdp": "17",
+        "spent": "900",
+        "profit": "2700",
+        "margin": "75%",
+        "sessions": "125",
+        "gainLoss": "29%"
+      }
+    ],
+    "accountID": "018",
+    "balance": "50233100",
     "asr": "0.32",
     "sdp": "18",
     "spent": "1500",
+    "profit": "3500",
+    "margin": "70%",
+    "sessions": "135",
+    "gainLoss": "31%"
+  },
+  {
+    "accountName": "Alpha 2",
+    "trunks": [
+      {
+        "accountName": "Alpha",
+        "carriers": [
+          {
+            "accountName": "Alpha",
+            "accountID": "012",
+            "balance": "1350",
+            "asr": "0.14",
+            "sdp": "11",
+            "spent": "450",
+            "profit": "900",
+            "margin": "67%",
+            "sessions": "130",
+            "gainLoss": "23%"
+          },
+          {
+            "accountName": "Alpha",
+            "accountID": "013",
+            "balance": "950",
+            "asr": "0.11",
+            "sdp": "4",
+            "spent": "250",
+            "profit": "700",
+            "margin": "73%",
+            "sessions": "95",
+            "gainLoss": "19%"
+          }
+        ],
+        "accountID": "014",
+        "balance": "3200",
+        "asr": "0.24",
+        "sdp": "14",
+        "spent": "800",
+        "profit": "2400",
+        "margin": "75%",
+        "sessions": "105",
+        "gainLoss": "26%"
+      },
+      {
+        "accountName": "Alpha",
+        "carriers": [
+          {
+            "accountName": "Alpha",
+            "accountID": "015",
+            "balance": "1600",
+            "asr": "0.16",
+            "sdp": "13",
+            "spent": "600",
+            "profit": "1000",
+            "margin": "62%",
+            "sessions": "140",
+            "gainLoss": "24%"
+          },
+          {
+            "accountName": "Alpha",
+            "accountID": "016",
+            "balance": "1800",
+            "asr": "0.19",
+            "sdp": "16",
+            "spent": "700",
+            "profit": "1100",
+            "margin": "61%",
+            "sessions": "115",
+            "gainLoss": "27%"
+          }
+        ],
+        "accountID": "017",
+        "balance": "3600",
+        "asr": "0.27",
+        "sdp": "17",
+        "spent": "900",
+        "profit": "2700",
+        "margin": "75%",
+        "sessions": "125",
+        "gainLoss": "29%"
+      }
+    ],
+    "accountID": "018",
+    "balance": "4134125",
+    "asr": "0.32",
+    "sdp": "18",
+    "spent": "0",
     "profit": "3500",
     "margin": "70%",
     "sessions": "135",

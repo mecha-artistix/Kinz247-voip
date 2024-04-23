@@ -91,7 +91,7 @@ const TableRow = ({ row, columns, indent = 0 }) => {
           </td>
         ))}
       </tr>
-      {/* {childKey &&
+      {childKey &&
         row[childKey].map((childRow, i) => (
           <tr key={i}>
             <td colSpan="100%">
@@ -106,7 +106,7 @@ const TableRow = ({ row, columns, indent = 0 }) => {
               </table>
             </td>
           </tr>
-        ))} */}
+        ))}
     </>
   );
 };
