@@ -1,5 +1,5 @@
 import { useEffect, useReducer, useState } from "react";
-import NavElement from "../utilities/NavElement";
+import NavElement from "../components/NavElement";
 import NavigationContext from "../contexts/NavigationContext";
 import { navigation } from "../assets/StaticData";
 import PanelHandler from "./PanelHandler";
