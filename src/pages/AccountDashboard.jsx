@@ -1,4 +1,4 @@
-import { FakeTable } from "../assets/FakeTable";
+import { FakeTable } from "../assets/FakeTableX";
 
 function AccountDashboard() {
   return (

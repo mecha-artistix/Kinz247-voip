@@ -6,14 +6,17 @@ import { Link } from "react-router-dom";
 function NavElement({ linkIcon, linkText, nestedNav, linkto }) {
   const { isExpanded } = useContext(NavigationContext);
   const [expandChild, setexpandChild] = useState(false);
+  const [iconDir, seticonDir] = useState("down");
 
   useEffect(() => {
     if (!isExpanded) setexpandChild(false);
+    seticonDir("down");
   }, [isExpanded]);
 
   function handleExpandChild() {
     if (!nestedNav.length > 0) return;
     setexpandChild((expandChild) => (expandChild = !expandChild));
+    seticonDir((iconDir) => (iconDir === "down" ? "up" : "down"));
   }
 
   return (
@@ -29,9 +32,9 @@ function NavElement({ linkIcon, linkText, nestedNav, linkto }) {
             {nestedNav && (
               <span
                 onClick={handleExpandChild}
-                className="ml-2 translate-y-1 cursor-pointer"
+                className="ml-2  cursor-pointer"
               >
-                <IconDown size={20} />
+                <IconDown size={20} direction={iconDir} />
               </span>
             )}
           </>

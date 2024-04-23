@@ -1,4 +1,12 @@
 function IconDown(props) {
+  const angle =
+    props.direction === "up"
+      ? 180
+      : props.direction === "right"
+        ? 90
+        : props.direction === "left"
+          ? -90
+          : 0;
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -6,9 +14,11 @@ function IconDown(props) {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      // className="w-6 h-6"
-      width={props.size}
-      height={props.size}
+      style={{
+        transform: `rotate(${angle}deg) translateY(4px) `,
+        width: props.size,
+        height: props.size,
+      }}
     >
       <path
         strokeLinecap="round"
