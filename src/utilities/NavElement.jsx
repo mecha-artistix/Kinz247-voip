@@ -22,15 +22,19 @@ function NavElement({ linkIcon, linkText, nestedNav, linkto }) {
         <span className="icon">{linkIcon}</span>
 
         {isExpanded && (
-          <Link to={linkto} className="nav-text link-primary flex">
-            {isExpanded && linkText}
-
+          <>
+            <Link to={linkto} className="nav-text link-primary flex">
+              {linkText}
+            </Link>
             {nestedNav && (
-              <span onClick={handleExpandChild} className="ml-2 translate-y-1">
+              <span
+                onClick={handleExpandChild}
+                className="ml-2 translate-y-1 cursor-pointer"
+              >
                 <IconDown size={20} />
               </span>
             )}
-          </Link>
+          </>
         )}
       </li>
       {expandChild && (
