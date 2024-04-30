@@ -24,7 +24,7 @@ function LeftPanel() {
       <div
         className={
           `flex-shrink-0 grow-0 border-r border-r-k_light_gray` +
-          (isExpanded ? `basis-1/2` : `basis-1/4`)
+          (isExpanded ? `w-[300px]` : `w-[160px]`)
         }
       >
         <div
