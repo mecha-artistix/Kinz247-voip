@@ -19,15 +19,15 @@ import Login from "../pages/Login";
 
 function Dashboard() {
   return (
-    <section className=" px-10 py-10">
+    <section className="flex-grow overflow-x-auto px-10 py-10">
       <div className="my-5">
         <h2 className="text-4xl font-bold">
           <PageTitle />
         </h2>
       </div>
-      <div className="w-[1080px]">
+      <div>
         <Routes>
-          <Route path="/" element={<AccountOverview />} />;
+          <Route index element={<AccountOverview />} />;
           <Route path="account-dashboard" element={<AccountDashboard />} />;
           <Route path="accounting" element={<Accounting />} />;
           <Route path="account-rate-deck" element={<AccountRateDeck />} />;
@@ -40,7 +40,7 @@ function Dashboard() {
           <Route path="billing" element={<Billing />} />;
           <Route path="reporting" element={<Reporting />} />;
           <Route path="admin" element={<Admin />} />;
-          <Route path="logout" element={<Logout />} />;
+          {/* <Route path="logout" element={<Login />} />; */}
         </Routes>
       </div>
     </section>

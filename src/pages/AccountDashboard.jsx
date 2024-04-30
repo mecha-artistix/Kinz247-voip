@@ -3,8 +3,8 @@ import { FakeTable } from "../assets/FakeTableX";
 function AccountDashboard() {
   return (
     <>
-      <div className="max-h-30 overflow-auto  border">
-        <table className="h-144  table-fixed ">
+      <div className="table-wrapper">
+        <table className="">
           <thead>
             <tr>
               <th>Account Name</th>

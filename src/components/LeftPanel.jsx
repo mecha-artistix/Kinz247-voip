@@ -21,10 +21,15 @@ function LeftPanel() {
 
   return (
     <NavigationContext.Provider value={{ isExpanded }}>
-      <div className=" border-r  border-r-k_light_gray">
+      <div
+        className={
+          `flex-shrink-0 grow-0 border-r border-r-k_light_gray` +
+          (isExpanded ? `basis-1/2` : `basis-1/4`)
+        }
+      >
         <div
-          style={isExpanded ? { width: "300px" } : { width: "160px" }}
-          className="px-8 "
+          // style={isExpanded ? { width: "300px" } : { width: "160px" }}
+          className={`px-8 `}
         >
           <ul
             className={"flex flex-col justify-center py-4 " + ulAlign.current}

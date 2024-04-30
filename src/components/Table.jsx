@@ -23,16 +23,18 @@ export default function Table({ data }) {
 
   return (
     <div>
-      <div className="table">Search Bar</div>
-      <table>
-        <Header
-          columns={columns}
-          handleSort={handleSort}
-          sortDirection={sortDirection}
-        />
+      <div className="">Search Bar</div>
+      <div className="table-wrapper">
+        <table>
+          <Header
+            columns={columns}
+            handleSort={handleSort}
+            sortDirection={sortDirection}
+          />
 
-        <Body entries={sortedData} columns={columns} />
-      </table>
+          <Body entries={sortedData} columns={columns} />
+        </table>
+      </div>
     </div>
   );
 }
