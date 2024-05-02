@@ -21,15 +21,17 @@ function App() {
 }
 
 function AuthenticatedApp() {
-  const { isAuthenticated } = useAuth();
+  const { isAuthenticated, user, logout } = useAuth();
+
   if (!isAuthenticated) return <Navigate to="/login" />;
+
   return (
     <>
       <header className="sticky top-0 z-10 h-24 w-full bg-white">
         <Header />
       </header>
       <main className="flex w-full border border-black">
-        <LeftPanel />
+        <LeftPanel user={user} logout={logout} />
         <Dashboard />
       </main>
     </>

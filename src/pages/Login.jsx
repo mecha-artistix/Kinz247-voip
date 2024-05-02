@@ -86,11 +86,9 @@ function Login() {
             </div>
             {error && (
               <div>
-                <p>
-                  {error.message && (
-                    <p className="text-red-500">{error.message}</p>
-                  )}
-                </p>
+                {error.message && (
+                  <p className="text-red-500">{error.message}</p>
+                )}
               </div>
             )}
             <input className="k_btn" type="submit" value="Submit" />

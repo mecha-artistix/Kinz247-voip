@@ -21,12 +21,12 @@ function NavElement({ linkIcon, linkText, nestedNav, linkto }) {
 
   return (
     <>
-      <li className="my-2 flex list-none items-center space-x-4 text-base  ">
+      <li className="my-2 flex list-none items-center space-x-4 text-base">
         <span className="icon">{linkIcon}</span>
 
         {isExpanded && (
           <>
-            <Link to={linkto} className="nav-text link-primary flex">
+            <Link to={linkto} className=" link-primary flex">
               {linkText}
             </Link>
             {nestedNav && (

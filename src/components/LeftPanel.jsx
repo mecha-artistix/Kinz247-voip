@@ -3,7 +3,8 @@ import NavElement from "../components/NavElement";
 import NavigationContext from "../contexts/NavigationContext";
 import { navigation } from "../assets/StaticData";
 import PanelHandler from "./PanelHandler";
-function LeftPanel() {
+import LogoutIcon from "../assets/icons/LogoutIcon";
+function LeftPanel({ user, logout }) {
   const [isExpanded, setisExpanded] = useState(true);
   const [ulAlign, setulAlign] = useState({
     current: "",
@@ -34,7 +35,12 @@ function LeftPanel() {
           <ul
             className={"flex flex-col justify-center py-4 " + ulAlign.current}
           >
-            <PanelHandler handleExpand={handleExpand} isExpanded={isExpanded} />
+            <li>
+              <PanelHandler
+                handleExpand={handleExpand}
+                isExpanded={isExpanded}
+              />
+            </li>
             {navigation.map((navItem) => (
               <NavElement
                 linkIcon={navItem.icon}
@@ -44,6 +50,13 @@ function LeftPanel() {
                 key={navItem.link}
               />
             ))}
+            <li
+              onClick={logout}
+              className="my-2 flex list-none items-center space-x-4 text-base"
+            >
+              <LogoutIcon size={40} />
+              {isExpanded && <p className="link-primary">{user.username}</p>}
+            </li>
           </ul>
         </div>
       </div>

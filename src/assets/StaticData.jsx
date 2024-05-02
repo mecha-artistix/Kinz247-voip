@@ -66,9 +66,9 @@ export const navigation = [
     icon: <AdminIcon size={size} />,
     link: "/admin",
   },
-  {
-    name: "Logout",
-    icon: <LogoutIcon size={size} />,
-    link: "/logout",
-  },
+  // {
+  //   name: "Logout",
+  //   icon: <LogoutIcon size={size} />,
+  //   link: "/logout",
+  // },
 ];
