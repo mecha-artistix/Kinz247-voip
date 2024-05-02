@@ -1,6 +1,9 @@
 import { useState } from "react";
-
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "../contexts/AuthContext";
 function Login() {
+  const { login } = useAuth();
+  const navigate = useNavigate();
   // Static JSON data representing users
   const usersData = [
     { id: 1, username: "user1", password: "password1" },
@@ -29,6 +32,8 @@ function Login() {
       setError({ message: "Invalid username or password" });
     } else {
       setError({});
+      login(user);
+      navigate("/");
     }
   };
 
@@ -88,11 +93,7 @@ function Login() {
                 </p>
               </div>
             )}
-            <input
-              className="bg-voip-blue focus:shadow-outline h-12 w-full rounded-lg px-6 text-white transition-colors duration-150 hover:bg-indigo-800"
-              type="submit"
-              value="Submit"
-            />
+            <input className="k_btn" type="submit" value="Submit" />
           </form>
         </div>
       </div>

@@ -33,9 +33,7 @@ function Header() {
             <div className="bg-[#D9D9D9] p-1">BOX</div>
           </div>
         </div>
-        <button className="hover:bg-k_blue_hover w-[210px] rounded bg-k_blue py-1 text-white transition-all">
-          Filter
-        </button>
+        <button className="k_btn">Filter</button>
       </div>
     </div>
   );
