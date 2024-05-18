@@ -55,7 +55,7 @@ function LeftPanel({ user, logout }) {
               className="my-2 flex list-none items-center space-x-4 text-base"
             >
               <LogoutIcon size={40} />
-              {isExpanded && <p className="link-primary">{user.username}</p>}
+              {isExpanded && <p className="link-primary">{user?.username}</p>}
             </li>
           </ul>
         </div>

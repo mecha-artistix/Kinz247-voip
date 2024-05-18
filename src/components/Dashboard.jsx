@@ -16,6 +16,7 @@ import Reporting from "../pages/Reporting";
 import Routing from "../pages/Routing";
 import SuspendLimits from "../pages/SuspendLimits";
 import Login from "../pages/Login";
+import AccountNew from "../pages/AccountNew";
 
 function Dashboard() {
   return (
@@ -40,7 +41,7 @@ function Dashboard() {
           <Route path="billing" element={<Billing />} />;
           <Route path="reporting" element={<Reporting />} />;
           <Route path="admin" element={<Admin />} />;
-          {/* <Route path="logout" element={<Login />} />; */}
+          <Route path="new-account" element={<AccountNew />} />
         </Routes>
       </div>
     </section>

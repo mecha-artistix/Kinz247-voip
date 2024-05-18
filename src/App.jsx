@@ -23,7 +23,7 @@ function App() {
 function AuthenticatedApp() {
   const { isAuthenticated, user, logout } = useAuth();
 
-  if (!isAuthenticated) return <Navigate to="/login" />;
+  // if (!isAuthenticated) return <Navigate to="/login" />;
 
   return (
     <>

@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="flex h-full w-full items-center justify-between border-b border-b-k_light_gray">
+    <div className="flex h-full w-full basis-20 flex-wrap items-center justify-between border-b border-b-k_light_gray">
       <div className="w-[300px] flex-shrink-0 grow-0 px-8">
         <Link to="/">
-          <h1 className="text-4xl font-extrabold">VoIP</h1>
+          <h1 className="text-4xl font-extrabold">switch24</h1>
         </Link>
       </div>
       <div className="flex flex-grow items-end justify-between gap-3 px-4">

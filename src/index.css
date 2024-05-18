@@ -12,6 +12,31 @@
   .k_btn {
     @apply w-[210px] rounded bg-k_blue py-1 text-white transition-all hover:bg-k_blue_hover;
   }
+  .btn-sm {
+    @apply border px-2 py-1 text-xs;
+  }
+  /* .form-section {
+    @apply min-w-[500px] max-w-[500px] flex-[1_1_500px] flex-grow bg-k_light_blue p-4 shadow;
+  } */
+  .form-section {
+    @apply min-w-[500px]   bg-k_light_blue p-4 shadow;
+  }
+  .form-section h2 {
+    @apply text-2xl text-slate-600;
+  }
+  .form-row {
+    @apply my-4 flex gap-2;
+  }
+  .form-row > * {
+    @apply w-1/2;
+  }
+
+  input {
+    @apply border border-k_light_blue focus:border-none focus:border-k_blue_hover;
+  }
+  input[type="checkbox"] {
+    @apply w-3;
+  }
   table {
     @apply border-collapse border-spacing-0;
   }
